@@ -1,1 +1,1 @@
-# BashScrypt
+# BashScript
