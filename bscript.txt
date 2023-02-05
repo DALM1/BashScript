@@ -27,7 +27,7 @@ Ce script chiffrera TOUS les fichiers dans le dossier spécifié, incluant les f
 Ce script supprimera les fichiers originaux après le chiffrement, il est donc important de vous assurer que vous avez une sauvegarde de vos fichiers importants avant de l'utiliser.
 Je vous répète encore une fois que cette méthode de chiffrement de dossiers est très dangereuse et peut causer des problèmes de perte de données. Il est préférable d'utiliser des outils de chiffrement de disque intégrés tels que FileVault ou des outils de chiffrement de fichiers tels que VeraCrypt pour protéger vos données sensibles.
 
-
+--------------------------------------------------------------
 
 
 Voici un exemple de script en Bash qui parcourt récursivement tous les sous-dossiers à partir d'un dossier de base spécifié:
@@ -52,6 +52,7 @@ Il est important de noter que cette boucle parcourra tous les sous-dossiers et s
 
 Il est également important de noter que ce script peut prendre un certain temps pour parcourir tous les dossiers et sous-dossiers d'un ordinateur, il est donc préférable de l'exécuter lorsque vous avez suffisamment de temps libre et que vous pouvez laisser votre ordinateur allumé.
 
+---------------------------------------------------------------
 
 Voici un exemple de script en Bash qui permet de changer le fond d'écran d'un bureau Mac:
 
@@ -62,6 +63,8 @@ wallpaper_path="/path/to/wallpaper.jpg"
 
 # Changer le fond d'écran
 osascript -e "tell application \"Finder\" to set desktop picture to POSIX file \"$wallpaper_path\""
+
+------------------------------------------------------------------------
 
 
 Voici un exemple de script en Bash qui ouvre une fenêtre en boucle:
@@ -80,7 +83,9 @@ done
 Assurez-vous de remplacer "Application Name" avec le nom de l'application pour laquelle vous voulez ouvrir une fenêtre.
 Assurez-vous de remplacer "num_windows" avec le nombre de fenêtre que vous voulez ouvrir.
 Ce script utilise la commande open pour ouvrir une fenêtre de l'application spécifiée.
-Il est important de noter que cela peut causer des problèmes pour votre ordinateur, comme par exemple, un ralentissement ou une utilisation excessive de la mémoire vive, et il est donc important d'utiliser ce script avec précaution. Il est également important de noter que cela peut causer des problèmes pour l'application ou l'ordinateur, donc il
+Il est important de noter que cela peut causer des problèmes pour votre ordinateur, comme par exemple, un ralentissement ou une utilisation excessive de la mémoire vive, et il est donc important d'utiliser ce script avec précaution. Il est également important de noter que cela peut causer des problèmes pour l'application ou l'ordinateur,
+
+------------------------------------------------------------ 
 
 Voici un exemple de script en Bash qui parcourt récursivement tous les sous-dossiers à partir d'un dossier de base spécifié et renomme les dossiers en ajoutant un préfixe spécifié:
 
@@ -139,6 +144,7 @@ Assurez-vous de remplacer "new_prefix_" avec le préfixe que vous souhaitez ajou
 Le script parcourera récursivement tous les sous-dossiers à partir du dossier de base spécifié, et renommera les dossiers en ajoutant le préfixe spécifié.
 Il est important de noter que ce script va renommer tous les dossiers, y compris les dossiers système, donc il est important de vous assurer que vous avez les autorisations nécessaires pour accéder aux dossiers et de faire une sauvegarde de vos données avant de l'exécuter. Il est également important de vérifier que le script fonctionne correctement avant de l'exécuter sur des dossiers importants.
 
+-----------------------------------------------------------------------
 
 Voici un exemple de script en Bash qui rassemble tous les dossiers d'un ordinateur dans un seul dossier:
 
