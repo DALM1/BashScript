@@ -1,6 +1,6 @@
 // Il est déconseillé d'écrire un script pour chiffrer tous les dossiers sur votre ordinateur Mac car cela pourrait causer des problèmes de perte de données ou d'accès non autorisé. Il est préférable d'utiliser des outils de chiffrement de disque intégrés tels que FileVault ou des outils de chiffrement de fichiers tels que VeraCrypt pour protéger vos données sensibles.
 
-// Si vous insistez pour écrire un script pour chiffrer tous les dossiers sur votre Mac, voici un exemple de script qui utilise OpenSSL pour chiffrer tous les fichiers dans un dossier spécifié en utilisant une clé de chiffrement spécifiée:
+// Si vous insistez pour écrire un script pour chiffrer tous les dossiers sur votre Mac, voici un script qui utilise OpenSSL pour chiffrer tous les fichiers dans un dossier spécifié en utilisant une clé de chiffrement spécifiée:
 
 
 
@@ -25,7 +25,7 @@ find $folder -type f -not -name "*.enc" -delete
 // Assurez-vous de remplacer "/path/to/folder" avec le chemin vers le dossier à chiffrer et "password" avec la clé de chiffrement souhaitée.
 // Ce script chiffrera TOUS les fichiers dans le dossier spécifié, incluant les fichiers cachés et les sous-dossiers, il est donc important de vous assurer que vous avez une sauvegarde de vos fichiers importants avant de l'utiliser.
 // Ce script supprimera les fichiers originaux après le chiffrement, il est donc important de vous assurer que vous avez une sauvegarde de vos fichiers importants avant de l'utiliser.
-// Je vous répète encore une fois que cette méthode de chiffrement de dossiers est très dangereuse et peut causer des problèmes de perte de données. Il est préférable d'utiliser des outils de chiffrement de disque intégrés tels que FileVault ou des outils de chiffrement de fichiers tels que VeraCrypt pour protéger vos données sensibles.
+// Cette méthode de chiffrement de dossiers est très dangereuse et peut causer des problèmes de perte de données. Il est préférable d'utiliser des outils de chiffrement de disque intégrés tels que FileVault ou des outils de chiffrement de fichiers tels que VeraCrypt pour protéger vos données sensibles.
 
 --------------------------------------------------------------
 
@@ -67,7 +67,7 @@ osascript -e "tell application \"Finder\" to set desktop picture to POSIX file \
 ------------------------------------------------------------------------
 
 
-// Voici un exemple de script en Bash qui ouvre une fenêtre en boucle:
+// Voici un script en Bash qui ouvre une fenêtre en boucle:
 
 #!/bin/bash
 
@@ -87,7 +87,7 @@ done
 
 ------------------------------------------------------------ 
 
-// Voici un exemple de script en Bash qui parcourt récursivement tous les sous-dossiers à partir d'un dossier de base spécifié et renomme les dossiers en ajoutant un préfixe spécifié:
+// Voici un script en Bash qui parcourt récursivement tous les sous-dossiers à partir d'un dossier de base spécifié et renomme les dossiers en ajoutant un préfixe spécifié:
 
 #!/bin/bash
 
@@ -146,7 +146,7 @@ done
 
 // -----------------------------------------------------------------------
 
-// Voici un exemple de script en Bash qui rassemble tous les dossiers d'un ordinateur dans un seul dossier:
+// Voici un script en Bash qui rassemble tous les dossiers d'un ordinateur dans un seul dossier:
 
 #!/bin/bash
 
