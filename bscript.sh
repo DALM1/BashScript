@@ -1,6 +1,6 @@
-// Il est déconseillé d'écrire un script pour chiffrer tous les dossiers sur votre ordinateur Mac car cela pourrait causer des problèmes de perte de données ou d'accès non autorisé. Il est préférable d'utiliser des outils de chiffrement de disque intégrés tels que FileVault ou des outils de chiffrement de fichiers tels que VeraCrypt pour protéger vos données sensibles.
+// Il est déconseillé d'écrire un script pour chiffrer tous les dossiers sur Mac car cela pourrait causer des problèmes de perte de données ou d'accès non autorisé. Il est préférable d'utiliser des outils de chiffrement de disque intégrés tels que FileVault ou des outils de chiffrement de fichiers tels que VeraCrypt pour protéger vos données sensibles.
 
-// Si vous insistez pour écrire un script pour chiffrer tous les dossiers sur votre Mac, voici un script qui utilise OpenSSL pour chiffrer tous les fichiers dans un dossier spécifié en utilisant une clé de chiffrement spécifiée:
+// voici un script qui utilise OpenSSL pour chiffrer tous les fichiers dans un dossier spécifié en utilisant une clé de chiffrement spécifiée:
 
 
 
