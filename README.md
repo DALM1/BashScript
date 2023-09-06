@@ -1,2 +1,2 @@
 # BashScript
-Use for personal purpose only
+USE FOR PERSONAL PURPOSE ONLY
